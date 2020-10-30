@@ -1,0 +1,45 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  
+}
+
+.row{
+  margin-top: 5em;
+  align-items:center;
+  justify-content: space-around;
+  
+  display: flex;
+  width: 100%;
+}
+
+h1{
+  margin-top: 2.5em;
+  border: solid 1px black;
+  background-color: chocolate;
+} 
+
+
+.box :hover{
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  background-color: chocolate;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+.box img{
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.total{
+  text-align: center;
+  border-radius: 10%;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
