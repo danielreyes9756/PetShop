@@ -1,0 +1,77 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #4080bf;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#customers, #prueba {
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  width: 80%;
+  text-align: center;
+}
+
+#prueba {
+  margin-left: 8em auto;
+}
+
+#prueba td, #prueba th{
+  border: black solid 1px;
+
+}
+
+#customers tr:nth-child(even), #prueba tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th, #prueba th {
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4080bf;
+  color: white;
+}
+
+#customers img {
+  width: 10em;
+}
+
+#prueba img {
+  width: 100%;
+}
+
+@media (max-width: 30em) {
+  #customers{ 
+    display: none;
+  }
+  #prueba{
+    display: block;
+  }
+}
+
+@media (min-width: 30em) {
+  #customers{ 
+    display:;
+  }
+  #prueba{
+    display: none;    
+  }
+}
