@@ -67,7 +67,7 @@ button:hover {
   }
 }
 
-@media (min-width: 30em) {
+@media (min-width: 30.01em){
   #customers{ 
     display:;
   }
