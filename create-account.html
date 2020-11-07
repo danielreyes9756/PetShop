@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Create Account</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+			<link rel="stylesheet" href="css/login.css">
+			<link href="css/common/navbar.css" rel="stylesheet">
+		</head>
+		<body>
+			<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+		    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#"><strong>Double D Pet Shop</strong></a>    
+		    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search" style="visibility: hidden;">
+		    <a class="navbar-brand col-md-3 col-lg-1 mr-0 px-3" href="#"><img src="img/cart.png" width="22px"></a>
+		    <a class="navbar-brand col-md-3 col-lg-1 mr-0 px-3" href="#"><img src="img/login.png" width="20px" height="20px"></a>
+			</nav>
+			<div id="id01" class="form-area" style="margin-top: 3em; ">
+			  <form class="form-area-content animate" action="/action_page.php" method="post">
+			    <div class="container">
+
+			      <label for="name"><b>Name:</b></label>
+			      <input type="text" placeholder="Introducir su nombre completo" name="name" required>
+			      
+			      <div class="movileAdap">
+			      	<label for="uname"><b>Username:</b></label>
+			      	<input type="text" placeholder="Introducir nombre de usuario" name="uname" required>
+			      	<label for="birth"><b>Birthdate:</b></label>			      	
+			      	<input type="date" placeholder="dd/mm/aaaa" name="birth" required>
+			      	<label for="country"><b>Country:</b></label>
+			      	<input type="text" placeholder="Introduzca el pais donde recide" name="country" required>
+			      	<label for="province"><b>Province:</b></label>
+			      	<input type="text" placeholder="Introduczca su provicia" name="province" required>
+			      	<label for="phone"><b>Phone:</b></label>
+			      	<input type="text" placeholder="Introduzca el pais donde recide" name="phone" required>
+			      	<label for="postal"><b>Postal code:</b></label>
+			      	<input type="text" placeholder="Introduczca su provicia" name="postal" required>
+			      </div>
+
+			      <div class="mini-input">
+				      <label style="margin-right:46.3%;" for="uname"><b>Username:</b></label> <label for="birth"><b>Birthdate:</b></label> <br>
+				      <input type="text" placeholder="Introducir nombre de usuario" name="uname" required>			      	
+			      	<input type="date" placeholder="dd/mm/aaaa" name="birth" required>
+			      </div>
+
+			      <div class="mini-input">
+				      <label style="margin-right:47.5%;" for="country"><b>Country:</b></label> <label for="province"><b>Province:</b></label> <br>
+				      <input type="text" placeholder="Introduzca el pais donde recide" name="country" required>			      	
+			      	<input style="margin-left: 6.5%;" type="text" placeholder="Introduzca su provincia" name="province" required>
+			      </div>
+
+			      <div class="mini-input">
+				      <label style="margin-right:48.7%;" for="phone"><b>Phone:</b></label></label> <label for="postal"><b>Postal code:</b></label> <br>
+				      <input type="text" placeholder="Introducir su numero de telefono" name="uname" required>
+				      <input style="margin-left: 6.5%;" type="text" placeholder="Introduzca su provincia" name="province" required>
+				    </div>
+
+			      <label for="psw"><b>Password:</b></label>
+			      <input type="password" placeholder="Introducir contraseña" name="psw" required>
+			      
+			      <label for="psw"><b>Confirm password:</b></label>
+			      <input type="password" placeholder="Introducir contraseña" name="psw" required>
+
+			      <button type="submit">Submit:</button>
+			      <button type="submit" onclick="document.getElementById('id01').style.display='none'" style="background-color: red">Cancel</button>
+			      <label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+
+			    </div>
+			    
+			  </form>
+			</div>
+ 	 	<!-- Footer -->
+  	<footer class="w3-row-padding w3-padding-32">
+    	<div class="w3-third">
+      	<h3>About Us</h3>
+      	<p>Double D Pet Shop es la cadena líder de tiendas de animales en España.
+			En Double D Pet Shop somos especialistas en todo tipo de animales y tenemos 
+			un equipo de más de 1.000 personas dedicadas a ayudar a mejorar la vida de todas las mascotas, 
+			pues un amante de los animales no es sólo un cliente, es un amigo.
+			Para ayudarte a cuidar y disfrutar de tu mejor amigo contamos con las mejores ofertas del sector y con el personal más especializado</p>
+    	</div>
+
+	    <div class="w3-third w3-serif">
+	      <h3>Conctact Us</h3>
+	      <ul class="w3-ul w3-hoverable">
+	        <li class="w3-padding-16">
+	          <span>Telefono: 928 XX XX XX</span><br>
+	        </li>
+	        <li class="w3-padding-16">
+	          <span>Correo: DoubleD@admin.com</span><br>
+	        </li>
+	        <li class="w3-padding-16">
+	          <span>Address: C/ calle</span><br>
+	        </li> 
+	      </ul>
+	    </div>
+
+	    <div class="w3-third">
+	      <h3>Social Medias</h3>
+	      <ul class="w3-ul w3-hoverable">
+	        <li class="w3-padding-16">
+	          <img src="img/Twitter.ico" class="w3-left w3-margin-right" style="width:50px">
+	          <span class="w3-large">Twitter</span><br>
+	          <span>@DoubleDPS</span>
+	        </li>
+	        <li class="w3-padding-16">
+	          <img src="img/instagram.png" class="w3-left w3-margin-right" style="width:50px">
+	          <span class="w3-large">Instagram</span><br>
+	          <span>@DoubleDPS</span>
+	        </li> 
+	        <li class="w3-padding-16">
+	          <img src="img/facebook.png" class="w3-left w3-margin-right" style="width:50px">
+	          <span class="w3-large">Facebook</span><br>
+	          <span>DoubleDPS</span>
+	        </li> 
+	      </ul>
+	    </div>
+	  </footer>
+	</body>
+</html>
