@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>Recovery</title>
+			<title>Login</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
 			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-			<link rel="stylesheet" href="css/recovery.css">
+			<link rel="stylesheet" href="css/login.css">
 			<link href="css/common/navbar.css" rel="stylesheet">
 		</head>
 		<body>
@@ -18,16 +18,24 @@
 			</nav>
 			<div id="id01" class="form-area">
 			  <form class="form-area-content animate" action="/action_page.php" method="post">
+			    <div class="imgcontainer">			    
+			      <img src="img/loginBig.png" alt="Avatar" class="avatar" style="width: 10%";>
+			    </div>
 
 			    <div class="container">
+			      <label for="uname"><b>Username</b></label>
+			      <input type="text" placeholder="Insert username" name="uname" required>
 
-			    	<h1><strong>Insert an email to recover your password</strong></h1>
-
-			      	<input type="text" id="email" placeholder="Insert email" name="email" required>
+			      <label for="psw"><b>Password</b></label>
+			      <input type="password" placeholder="Insert password" name="psw" required>
 			        
-			      	<button type="submit">Recover your password</button>
-			    
-			     	<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="background-color:red">Cancel</button>
+			      <button type="submit">Submit</button>
+			      <label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+			    </div>
+
+			    <div class="container" style="background-color:#f1f1f1">
+			      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+			      <span class="psw"><a href="#">Forgot password?</a></span>
 			    </div>
 			  </form>
 			</div>

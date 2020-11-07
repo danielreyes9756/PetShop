@@ -114,9 +114,7 @@ img.avatar {
 
 }
 .vota{
-  margin-top: 150px;
-  margin-left: -70px;
-  width: 150%;
+  text-align: center;
 }
 #customers {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;

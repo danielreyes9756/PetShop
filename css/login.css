@@ -1,34 +1,5 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 .w3-bar-block .w3-bar-item {padding:20px}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 32px;
-  margin-top: -120px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  margin-right: 110px;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
 
 body {font-family: Arial, Helvetica, sans-serif;}
 
@@ -69,39 +40,28 @@ button:hover {
   text-align: center;
   margin: 24px 0 12px 0;
   position: relative;
-  padding-top: 80px;
 }
 
 img.avatar {
-  width: 40%;
-  border-radius: 50%;
+  min-width: 100px;
 }
 
 .container {
   padding: 16px;
 }
 
-/* The Modal (background) */
-.modal {
-   /* Hidden by default */
- 
+.form-area {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
 }
 
 /* Modal Content/Box */
-.modal-content {
+.form-area-content {
   background-color: #fefefe;
   width: 100%; /* Could be more or less, depending on screen size */
 }
 
-
-
-
-
-
-/* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {
      display: block;
