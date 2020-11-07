@@ -4,11 +4,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
-
 input[type=text], input[type=password] {
-
-input[type=text], input[type=password], input[type=date] {
-
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -16,24 +12,6 @@ input[type=text], input[type=password], input[type=date] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-
-.mini-input{
-  width: 100%;
-  margin: 8px 0;
-  display: inline-block;
-  box-sizing: border-box;
-}
-
-.mini-input input[type=text]{
-  width: 46.4%;
-  padding: 12px 0px;
-}
-
-.mini-input input[type=date] {
-  margin-left: 6.5%;
-  width: 46.4%;
-}
-
 
 /* Set a style for all buttons */
 button {
@@ -43,18 +21,12 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 45%;
+  margin-left: 3%;
 }
 
 button:hover {
   opacity: 0.8;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #ff0000;
 }
 
 /* Center the image and position the close button */
@@ -82,33 +54,4 @@ img.avatar {
 .form-area-content {
   background-color: #fefefe;
   width: 100%; /* Could be more or less, depending on screen size */
-}
-
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
-
-}
-
-@media (max-width: 767px) {
-  .mini-input {
-    display: none;
-  }
-  .movileAdap {
-    display: ;
-  }
-}
-@media (min-width: 768px) {
-  .mini-input {
-    display: ;
-  }
-  .movileAdap {
-    display: none;
-  }
-
 }
