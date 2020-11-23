@@ -39,11 +39,17 @@ button:hover {
 }
 
 /* Center the image and position the close button */
-.contenedor1, .contenedor2 {
+.contenedor1, .contenedor2{
   text-align: center;
   margin: 24px 0 12px 0;
   position: relative;
-  padding-top: 80px;
+  padding-top: 100px;
+}
+
+.votala{
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
 }
 
 img.avatar {
@@ -113,8 +119,15 @@ img.avatar {
   display: inline-block;
 
 }
+.votala{
+  float: left;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 50%;
+}
 .vota{
-  text-align: center;
+  float: center;
+
 }
 #customers {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -142,3 +155,4 @@ img.avatar {
   margin-top: 2%;
   width: 50%;
 }
+

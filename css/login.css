@@ -1,39 +1,10 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 .w3-bar-block .w3-bar-item {padding:20px}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 32px;
-  margin-top: -120px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  margin-right: 110px;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
 
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=date] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -42,9 +13,26 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
+.mini-input{
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.mini-input input[type=text]{
+  width: 46.4%;
+  padding: 12px 0px;
+}
+
+.mini-input input[type=date] {
+  margin-left: 6.5%;
+  width: 46.4%;
+}
+
 /* Set a style for all buttons */
 button {
-  background-color: #EF7F1A;
+  background-color: #1d951d;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -61,7 +49,7 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #ff0000;
+  background-color: #d50101;
 }
 
 /* Center the image and position the close button */
@@ -69,39 +57,28 @@ button:hover {
   text-align: center;
   margin: 24px 0 12px 0;
   position: relative;
-  padding-top: 80px;
 }
 
 img.avatar {
-  width: 40%;
-  border-radius: 50%;
+  min-width: 100px;
 }
 
 .container {
   padding: 16px;
 }
 
-/* The Modal (background) */
-.modal {
-   /* Hidden by default */
- 
+.form-area {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
 }
 
 /* Modal Content/Box */
-.modal-content {
+.form-area-content {
   background-color: #fefefe;
   width: 100%; /* Could be more or less, depending on screen size */
 }
 
-
-
-
-
-
-/* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {
      display: block;
@@ -109,5 +86,22 @@ img.avatar {
   }
   .cancelbtn {
      width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .mini-input {
+    display: none;
+  }
+  .movileAdap {
+    display: ;
+  }
+}
+@media (min-width: 768px) {
+  .mini-input {
+    display: ;
+  }
+  .movileAdap {
+    display: none;
   }
 }

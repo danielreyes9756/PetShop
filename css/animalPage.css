@@ -1,5 +1,4 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
-.w3-bar-block .w3-bar-item {padding:20px}
 
 body{
   margin: 0;
@@ -13,6 +12,7 @@ body{
 
 .row{
   margin-top: 5em;
+  margin-left: 0.25em;
   align-items:center;
   justify-content: space-around;
   
@@ -21,11 +21,31 @@ body{
 }
 
 h1{
-  margin-top: 2.5em;
-  border: solid 1px black;
+  font-family: "Voces";
+  border: groove 1.5px #c2330f;
   background-color: chocolate;
 } 
 
+nav {
+
+  border-bottom: solid 4px #3b3a40;
+}
+
+footer{
+  border-top-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  margin-top: 5em;
+}
+
+.box{
+  height:255px;
+}
+
+.box img{
+   max-width:245px;
+   height:auto;
+}
 
 .box :hover{
   border-top-left-radius: 10%;
@@ -33,13 +53,12 @@ h1{
   background-color: chocolate;
   box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
 }
-.box img{
-  max-width: 300px;
-  max-height: 300px;
-}
+
 
 .total{
   text-align: center;
   border-radius: 10%;
-  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 13px rgba(0,0,0,0.2);
+  margin-bottom: 4em;
+  margin-top: -2em;
 }
