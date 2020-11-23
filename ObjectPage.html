@@ -4,23 +4,33 @@
   <title>Object Page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link href="css/common/navbar.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
 <link rel="stylesheet" href="css/objectPage.css">
 </head>
 <body>
-<nav>
-  <div class="w3-top" style="text-align: center">
-    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-      <div class="w3-left w3-padding-16" style="font-size:3vw" >Double D PetShop</div>
-      <div class="w3-right w3-padding-16" style="width: 10%">
-        <img src="img/cart.png" style="width: 35%;max-width:100%;height:auto;">
-        <img src="img/login.png" style="width: 35%;max-width:100%;height:auto;">
-      </div>
+
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+	<a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">
+		<strong>Double D Pet Shop</strong>
+	</a>    
+	<input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search" style="visibility: hidden;">
+	<a class="navbar-brand col-md-3 col-lg-1 mr-0 px-3" href="#">
+		<img src="img/cart.png" width="22px">
+	</a>
+	<a class="navbar-brand col-md-3 col-lg-1 mr-0 px-3" href="#">
+		<img src="img/login.png" width="20px" height="20px">
+	</a>
+</nav> 
+<div class="contenedor2">
+  <div class="item">
+    <div class="polaroid"><img src="img/pienso.png">
+      <div class="caption">20€/u</div>
 
     </div>
   </div>
-<nav>  
-
+</div>
 <div class="contenedor1">
   <h3><strong class="w3-padding-32" style="font-size:3vw">Pienso Ownat 100% Natural</strong></h3>
   <br>
@@ -35,61 +45,34 @@
 
 </div>
 
-<div class="contenedor2">
-  <div class="item">
-    <div class="polaroid"><img src="img/pienso.png">
-      <div class="caption">20€/u</div>
-    </div>
-  </div>
-</div>
+
 
 <div class="votala">
-	<div>
-		<input type="number" name="" min="0" max="5"><br>
-
-    	<input type="text" class="text" placeholder="Insert your comment here ..."> 
-    </div>
+	<textarea name="comment" form="usrform" >Escriba su comentario aquí...
+	</textarea>
+	<form action="/action_page.php" id="usrform">
+  		<button>Enviar</button>
+	</form>
 </div>
 
-<div class="vota">
-  <div>
-   
-    <div class="tabla">
-      <table id="customers">
-        <tr>
-          <th>User</th>
-          <th>Comment</th>
-          <th>Rating</th>
-
-        </tr>
-        <tr>
-          <td>Raul</td>
-          <td>Que rico el pollito</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>Marta</td>
-
-          <td>Buen pienso</td>
-
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>Raul</td>
-          <td>Que rico el pollito</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>Marta</td>
-
-          <td>Buen pienso</td>
-
-          <td>5</td>
-        </tr>
-      </table>
-    </div>
-  </div>
+<div class="opinions">
+	<br>
+	<h3><strong class="w3-padding-32" style="font-size:3vw">Opiniones</strong></h3>
+	<hr>
+	<p> Manolo </p>
+	<img src="https://blogapi.uber.com/wp-content/uploads/2017/07/BND_170082-COR-R-LATAM-Star_Ratings_Post_4_Stars.png" style= "width: 150px">
+	<br>
+	<br>
+	<p> "Nada mal el pollo" </p>
+	<hr>
+	<p> María </p>
+	<img src="https://blogapi.uber.com/wp-content/uploads/2017/07/BND_170082-COR-R-LATAM-Star_Ratings_Post_1_Star.png" style= "width: 150px">
+	<br>
+	<br>
+	<p> "Me vino con hormigas dentro, firulais se puso enfermo" </p>
+	<hr>
 </div>
+
 
   <!-- Footer -->
 
@@ -102,6 +85,7 @@
       so an animal lover is not just a customer, is a friend.
       To help you take care of and enjoy your best friend, we have the best offers in the sector and the most specialized staff</p>
       </div>
+
 
       <div class="w3-third w3-serif">
         <h3>Conctact Us</h3>
