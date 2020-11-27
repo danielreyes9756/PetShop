@@ -192,7 +192,17 @@ img.avatar {
   width: 50%;
 }
 textarea{
-  margin-top: 2%;
   width: 50%;
+  text-align: center;
 }
 
+footer{
+  border-top-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  margin-top: 5em;
+}
+
+.opinions {
+  margin-top: 10em;
+}
