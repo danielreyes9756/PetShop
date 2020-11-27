@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<users>
+    <user>
+        <id>0</id>
+        <role>admin</role>
+        <email>admin@petshop.com</email>
+        <name>ADMIN</name>
+        <username>ADMIN</username>
+        <password>Administrador_0</password>
+        <province>ADMIN</province>
+        <country>ADMIN</country>
+        <phone>000000000</phone>
+        <birthdate>01/01/1111</birthdate>
+        <ZIP>00000</ZIP>
+    </user>
+    <user>
+        <id>1</id>
+        <role>user</role>
+        <email>user@gmail.com</email>
+        <name>usuario</name>
+        <username>user01</username>
+        <password>Usuario_1</password>
+        <province>Madrid</province>
+        <country>España</country>
+        <phone>100000001</phone>
+        <birthdate>02/03/1991</birthdate>
+        <ZIP>20202</ZIP>
+    </user>
+    <user>
+        <id>3</id>
+        <role>user</role>
+        <email>marcos@hotmail.com</email>
+        <name>Marcos Antonio Perez</name>
+        <username>Marcos001</username>
+        <password>M_arquitos007</password>
+        <province>Las Palmas</province>
+        <country>España</country>
+        <phone>928088008</phone>
+        <birthdate>07/07/1979</birthdate>
+        <ZIP>25255</ZIP>
+    </user>
+    <user>
+        <id>4</id>
+        <role>user</role>
+        <email>marta@hotmail.com</email>
+        <name>Marta Suarez</name>
+        <username>Mar-t1-ta</username>
+        <password>Mar-t1-ta</password>
+        <province>Las Palmas</province>
+        <country>España</country>
+        <phone>928717171</phone>
+        <birthdate>29/07/1999</birthdate>
+        <ZIP>25250</ZIP>
+    </user>
+</users>

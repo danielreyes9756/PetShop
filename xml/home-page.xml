@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<home>
+    <slider>
+        <id>0</id>
+        <img>img/banner-mascotas.jpg</img>
+        <animal>dog</animal>
+    </slider>
+    <slider>
+        <id>1</id>
+        <img>img/banner-gatos.png</img>
+        <animal>gatos</animal>
+    </slider>
+    <slider>
+        <id>2</id>
+        <img>img/banner-pajaros.png</img>
+        <animal>pajaros</animal>
+    </slider>
+    <slider>
+        <id>3</id>
+        <img>img/banner-reptiles.jpg</img>
+        <animal>reptiles</animal>
+    </slider>
+</home>
