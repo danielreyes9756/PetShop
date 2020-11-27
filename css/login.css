@@ -1,5 +1,4 @@
 h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
-.w3-bar-block .w3-bar-item {padding:20px}
 
 body {font-family: Arial, Helvetica, sans-serif;}
 
@@ -15,14 +14,12 @@ input[type=text], input[type=password], input[type=date] {
 
 .mini-input{
   width: 100%;
-  margin: 8px 0;
   display: inline-block;
   box-sizing: border-box;
 }
 
 .mini-input input[type=text]{
   width: 46.4%;
-  padding: 12px 0px;
 }
 
 .mini-input input[type=date] {
@@ -78,6 +75,9 @@ img.avatar {
   background-color: #fefefe;
   width: 100%; /* Could be more or less, depending on screen size */
 }
+span.links{
+  margin-right: 1%;
+}
 
 @media screen and (max-width: 300px) {
   span.psw {
@@ -93,7 +93,7 @@ img.avatar {
   .mini-input {
     display: none;
   }
-  .movileAdap {
+  .phoneResposive {
     display: ;
   }
 }
@@ -101,7 +101,7 @@ img.avatar {
   .mini-input {
     display: ;
   }
-  .movileAdap {
+  .phoneResposive {
     display: none;
   }
 }

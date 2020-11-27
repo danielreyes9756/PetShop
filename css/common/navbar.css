@@ -39,9 +39,3 @@
 .navbar a:hover{
   filter: brightness(150%);
 }
-
-@media (max-width: 20em) {
-  .navbar{
-     display:none;
-  }
-}
