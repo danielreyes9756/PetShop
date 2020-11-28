@@ -1,0 +1,71 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+/* Set a style for all buttons */
+button {
+  background-color: deepskyblue;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  border: 5px solid #dddd;
+  border-radius: 8px;
+  border-color: black;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+#customers img {
+  width: 10em;
+}
+#customers input {
+  width: 5em;
+}
+@media screen and (max-width: 1000px){
+        #customers img{
+            display: none;
+        }
+    }
+
+.unidades{
+  width: 25%;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 3%;
+}
+#customers{
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  border-radius: 100px;
+  border-color: #373A3D;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  width: 80%;
+  text-align: center;
+  min-width: 50%;
+}
+
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th{
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4080bf;
+  color: white;
+}
