@@ -25,6 +25,9 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
+  border: 3px solid #ddd;
+  border-radius: 8px;
+  border-color: black;
 }
 
 button:hover {
@@ -156,21 +159,30 @@ img.avatar {
     }
 .opinions{
       float:center;
+      margin-top: 10%;
       margin-left: 10%;
+    }
+
+@media screen and (max-width: 1700px){
+    .opinions{
+        width:  50%;
+        margin-right: 50%;
+        margin-left: 10%;
+        }
     }
 @media screen and (max-width: 1000px){
         .opinions{
-            width:  50%;
-            margin-right: 30%;
             margin-left: 25%;
         }
     }
+
 #customers {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 50%;
   margin-left: 10%;
 }
+
 
 #customers td, #customers th {
   padding: 8px;
