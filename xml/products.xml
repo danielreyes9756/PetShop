@@ -115,7 +115,7 @@
         <price>20</price>
         <img>img/pienso.png</img>
         <species>Canine</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
     <product>
         <id>13</id>
@@ -124,7 +124,7 @@
         <price>25</price>
         <img>img/pienso+.png</img>
         <species>Canine</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
     <product>
         <id>14</id>
@@ -133,7 +133,7 @@
         <price>20</price>
         <img>img/pienso.png</img>
         <species>Canine</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
     <product>
         <id>15</id>
@@ -142,7 +142,7 @@
         <price>25</price>
         <img>img/pienso+.png</img>
         <species>Canine</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
     <product>
         <id>16</id>
@@ -151,7 +151,7 @@
         <price>20</price>
         <img>img/pienso.png</img>
         <species>Canine</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
     <product>
         <id>17</id>
@@ -160,7 +160,7 @@
         <price>25</price>
         <img>img/pienso+.png</img>
         <species>Canine</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
 
     <product>
@@ -278,7 +278,7 @@
         <price>20</price>
         <img>img/pienso.png</img>
         <species>Feline</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
     <product>
         <id>31</id>
@@ -287,7 +287,7 @@
         <price>25</price>
         <img>img/pienso+.png</img>
         <species>Feline</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
     <product>
         <id>32</id>
@@ -296,7 +296,7 @@
         <price>20</price>
         <img>img/pienso.png</img>
         <species>Feline</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
     <product>
         <id>33</id>
@@ -305,7 +305,7 @@
         <price>25</price>
         <img>img/pienso+.png</img>
         <species>Feline</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
     <product>
         <id>34</id>
@@ -314,7 +314,7 @@
         <price>20</price>
         <img>img/pienso.png</img>
         <species>Feline</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
     <product>
         <id>35</id>
@@ -323,7 +323,7 @@
         <price>25</price>
         <img>img/pienso+.png</img>
         <species>Feline</species>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </product>
     <!-- AÑADIDO para el SLIDER -->
     <product>

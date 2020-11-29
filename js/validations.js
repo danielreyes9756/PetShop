@@ -200,11 +200,11 @@ function pago(){
                         alert("invalid email format");
                         return false;
                     }
-                    if(!/^[a-zA-Z0-9]{4,60}$}$/.test(adr)){
+                    if(!/^[a-zA-Z0-9 ]{4,60}$/.test(adr)){
                         alert("invalid address 4-60 alphanumeric characters");
                         return false;
                     }
-                    if(!/^[a-zA-Z]{4,60}$}$/.test(city)){
+                    if(!/^[a-zA-Z ]{4,60}$/.test(city)){
                         alert("invalid city 4-60 letters");
                         return false;
                     }
@@ -212,7 +212,8 @@ function pago(){
                         alert("invalid ZIP strict 5 numbers");
                         return false;
                     }
-                    if(!/^[0-9]{3}$/.test(zip)){
+                    console.log(cvv);
+                    if(!/^[0-9]{3}$/.test(cvv)){
                         alert("invalid CVV strict 3 numbers");
                         return false;
                     }

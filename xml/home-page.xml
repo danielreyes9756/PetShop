@@ -44,7 +44,7 @@
         <img>img/juguetesBanner.jpeg</img>
         <animal>Canine</animal>
         <link>shop.html</link>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </slider-category>
 
     <slider-category>
@@ -66,6 +66,6 @@
         <img>img/juguetesBanner.jpeg</img>
         <animal>Feline</animal>
         <link>shop.html</link>
-        <category>Toys-Home</category>
+        <category>toys</category>
     </slider-category>
 </sliders>
