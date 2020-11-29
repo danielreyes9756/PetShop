@@ -19,6 +19,7 @@ $(document).ready(function() {
             dataType: "xml",
             success: function (xml) {
                 $('#banner-text-container').empty()
+                $('#autoWidth').empty()
 
                 let htmlRep = '<img src="img/' + window.location.href.substring(window.location.href.lastIndexOf('#') + 1) + 'Banner.jpg">'
                 $('#banner-text-container').append(htmlRep)
