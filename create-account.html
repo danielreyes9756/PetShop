@@ -8,7 +8,7 @@
 			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
 			<link rel="stylesheet" href="css/login.css">
 			<link href="css/common/navbar.css" rel="stylesheet">
-			<script src="js/login.js"></script>
+			<script src="js/validations.js"></script>
 			<script src="json/db.json"></script>
 		</head>
 		<body>
@@ -19,45 +19,45 @@
 		    <a class="navbar-brand col-md-3 col-lg-1 mr-0 px-3" href="login.html"><img src="img/login.png" width="20px" height="20px"></a>
 			</nav>
 			<div id="form-area" class="form-area" style="margin-top: 3em">
-			  <form class="form-area-content animate" method="post">
+			  <form class="form-area-content animate">
 			    <div class="container">
 
 			      <label for="name"><b>Name:</b></label>
-			      <input type="text" placeholder="Insert your fullname" name="name" id="name" minlength="4" maxlength="30" pattern="[A-Za-z ]{4,30}" required>
+			      <input type="text" placeholder="Insert your fullname" name="name" id="name" minlength="4" maxlength="30" pattern="^[A-Za-z ]{4,30}$" required>
 			      <label for="email"><b>Email:</b></label>
-			      <input type="text" placeholder="Insert a email" name="email" id="email" minlength="10" maxlength="321" pattern="[a-zA-Z0-9_+.]{4,64}@[a-zA-Z_-]{4,251}.com" required>
+			      <input type="text" placeholder="Insert a email" name="email" id="email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
 
 			      <div class="phoneResposive">
 			      	<label for="unamePhone"><b>Username:</b></label>
-			      	<input type="text" placeholder="Insert a username" id="unamePhone" name="unamePhone" minlength="4" maxlength="20" pattern="[A-Za-z0-9]{4,20}" required>
+			      	<input type="text" placeholder="Insert a username" id="unamePhone" name="unamePhone" minlength="4" maxlength="20" pattern="^[A-Za-z0-9]{4,20}$" required>
 			      	<label for="birthPhone"><b>Birthdate:</b></label>			      	
-			      	<input type="date" placeholder="DD/MM/YYYY" name="birthPhone" id="birthPhone" required>
+			      	<input type="date"  name="birthPhone" id="birthPhone" required>
 			      	<label for="countryPhone"><b>Country:</b></label>
-			      	<input type="text" placeholder="Insert your country" name="countryPhone" id="countryPhone" minlength="4" maxlength="60" pattern="[a-zA-Zñ/ -]{4,60}" required>
+			      	<input type="text" placeholder="Insert your country" name="countryPhone" id="countryPhone" minlength="4" maxlength="60" pattern="^[a-zA-Z]{4,60}$ " required>
 			      	<label for="provincePhone"><b>Province:</b></label>
-			      	<input type="text" placeholder="Insert your province" name="provincePhone" id="provincePhone" minlength="1" maxlegth="100" pattern="[a-zA-Zñ/ -]{1,100}" required>
+			      	<input type="text" placeholder="Insert your province" name="provincePhone" id="provincePhone" minlength="1" maxlegth="100" pattern="^[a-zA-Z]{1,100}$" required>
 			      	<label for="phonePhone"><b>Phone:</b></label>
-			      	<input type="text" placeholder="Insert your phone" name="phonePhone" id="phonePhone" minlength="9" maxlength="9" pattern="[0-9]{9}" required>
+			      	<input type="text" placeholder="Insert your phone" name="phonePhone" id="phonePhone" minlength="9" maxlength="9" pattern="^[0-9]{9}$" required>
 			      	<label for="zipPhone"><b>ZIP:</b></label>
-			      	<input type="text" placeholder="ZIP" name="zipPhone" id="zipPhone" minlength="5" maxlength="5" pattern="[0-9]{5}" required>
+			      	<input type="text" placeholder="ZIP" name="zipPhone" id="zipPhone" minlength="5" maxlength="5" pattern="^[0-9]{5}$" required>
 			      </div>
 
 			      <div class="mini-input">
 				    <label style="margin-right:46.3%" for="uname"><b>Username:</b></label> <label for="birth"><b>Birthdate:</b></label> <br>
-				    <input type="text" placeholder="Insert a username" id="uname" name="uname" minlength="4" maxlength="20" pattern="[A-Za-z0-9]{4,20}" required>			      	
+				    <input type="text" placeholder="Insert a username" id="uname" name="uname" minlength="4" maxlength="20" pattern="^[A-Za-z0-9]{4,20}$" required>
 			      	<input type="date" placeholder="DD/MM/YYYY" name="birth" id="birth" required>
 			      </div>
 
 			      <div class="mini-input">
 				    <label style="margin-right:47.5%" for="country"><b>Country:</b></label> <label for="province"><b>Province:</b></label> <br>
-				    <input type="text" placeholder="Insert your country" name="country" id="country" minlength="4" maxlength="60" pattern="[a-zA-Zñ/ -]{4,60}" required>		      	
-			      	<input style="margin-left: 6.5%" type="text" placeholder="Insert a province" name="province" id="province" minlength="1" maxlegth="100" pattern="[a-zA-Zñ/ -]{1,100}" required>
+				    <input type="text" placeholder="Insert your country" name="country" id="country" minlength="4" maxlength="60" pattern="^[a-zA-Z]{4,60}$" required>
+			      	<input style="margin-left: 6.5%" type="text" placeholder="Insert a province" name="province" id="province" minlength="1" maxlegth="100" pattern="^[a-zA-Z]{1,100}$" required>
 			      </div>
 
 			      <div class="mini-input">
 				      <label style="margin-right:48.7%" for="phone"><b>Phone:</b></label> <label for="zip"><b>ZIP:</b></label> <br>
-				      <input type="text" placeholder="Insert yout phone" name="phone" id="phone" minlength="9" maxlength="9" pattern="[0-9]{9}" required>
-				      <input style="margin-left: 6.5%" type="text" placeholder="ZIP" name="zip" id="zip" minlength="5" maxlength="5" pattern="[0-9]{5}" required>
+				      <input type="text" placeholder="Insert yout phone" name="phone" id="phone" minlength="9" maxlength="9" pattern="^[0-9]{9}$" required>
+				      <input style="margin-left: 6.5%" type="text" placeholder="ZIP" name="zip" id="zip" minlength="5" maxlength="5" pattern="^[0-9]{5}$" required>
 				    </div>
 
 			      <label for="password"><b>Password:</b></label>

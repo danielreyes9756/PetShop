@@ -17,6 +17,7 @@ $(document).ready(function() {
             cache: false,
             dataType: "xml",
             success: function (xml) {
+
                 $('#products').empty()
                 let i = 0;
                 let total=0;
@@ -35,7 +36,8 @@ $(document).ready(function() {
                     let totalUnico = parseInt(price) * parseInt(units)
                     total = totalUnico + total
                     htmlRep =
-                        '<p><a href="ObjectPage.html#'+ product + '">' + name + '</a>  x  ' + units +  '<span class="price">' + totalUnico + '$</span></p>'
+                        '<p>' + units +  ' Units</p>'+
+                        '<p><a href="ObjectPage.html#'+ product +'">' + name +'</a><span class="price">' + totalUnico + '$</span></p>'
                     $('#products').append(htmlRep);
                 });
                 htmlRep =

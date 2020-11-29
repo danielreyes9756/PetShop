@@ -8,6 +8,7 @@
 			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
 			<link rel="stylesheet" href="css/recovery.css">
 			<link href="css/common/navbar.css" rel="stylesheet">
+			<script src="js/validations.js"></script>
 		</head>
 		<body>
 			<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
@@ -17,17 +18,15 @@
 		    <a class="navbar-brand col-md-3 col-lg-1 mr-0 px-3" href="#"><img src="img/login.png" width="20px" height="20px"></a>
 			</nav>
 			<div id="id01" class="form-area">
-			  <form class="form-area-content animate" action="/action_page.php" method="post">
-
+			  <form class="form-area-content animate">
 			    <div class="container">
-
 			    	<h1><strong>Insert an email to recover your password</strong></h1>
-
-			      	<input type="text" id="email" placeholder="Insert email" name="email" required>
-			        
-			      	<button type="submit">Recover your password</button>
-			    
-			     	<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="background-color:#d50101">Cancel</button>
+			      	<input type="text" id="email" placeholder="Insert email"
+						   name="email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
+						   required>
+					<p id="pEmail"></p>
+			      	<button type="submit" onclick="recoveryPassword()">Recover your password</button>
+			     	<button type="button" onclick="window.location.assign('login.html')" class="cancelbtn" style="background-color:#d50101">Cancel</button>
 			    </div>
 			  </form>
 			</div>
