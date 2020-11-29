@@ -94,12 +94,12 @@ span.links{
     display: none;
   }
   .phoneResposive {
-    display: ;
+    display: revert;
   }
 }
 @media (min-width: 768px) {
   .mini-input {
-    display: ;
+    display: revert;
   }
   .phoneResposive {
     display: none;

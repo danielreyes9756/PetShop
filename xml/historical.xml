@@ -8,7 +8,6 @@
         <date>10/11/2020</date>
         <price>20</price>
         <img>img/pienso.png</img>
-        <status>Entregado</status>
     </history>
     <history>
         <users>1</users>
@@ -18,7 +17,6 @@
         <date>10/11/2020</date>
         <price>25</price>
         <img>img/pienso+.png</img>
-        <status>Entregado</status>
     </history>
     <history>
         <users>1</users>
@@ -28,7 +26,6 @@
         <date>20/11/2020</date>
         <price>25</price>
         <img>img/pienso+.png</img>
-        <status>En camino</status>
     </history>
     <history>
         <users>1</users>
@@ -38,6 +35,29 @@
         <date>20/11/2020</date>
         <price>20</price>
         <img>img/pienso.png</img>
-        <status>En camino</status>
     </history>
+    <cart>
+        <users>1</users>
+        <product>6</product>
+        <name>Limpieza 1</name>
+        <units>2</units>
+        <price>20</price>
+        <img>img/pienso.png</img>
+    </cart>
+    <cart>
+        <users>1</users>
+        <product>7</product>
+        <name>Limpieza 2</name>
+        <units>5</units>
+        <price>25</price>
+        <img>img/pienso+.png</img>
+    </cart>
+    <cart>
+        <users>1</users>
+        <product>9</product>
+        <name>Limpieza 4</name>
+        <units>100</units>
+        <price>25</price>
+        <img>img/pienso+.png</img>
+    </cart>
 </historical>

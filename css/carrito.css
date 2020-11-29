@@ -15,6 +15,7 @@ button {
   border: 5px solid #dddd;
   border-radius: 8px;
   border-color: black;
+  text-align: center;
 }
 
 button:hover {

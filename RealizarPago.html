@@ -2,16 +2,18 @@
 <html>
   <title>Pago POPUP</title>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/realizarPago.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/realizarPago.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js/paid.js"></script>
 </head>
 <body>
 
 <div class="row">
   <div class="col-75">
     <div class="container">
-      <form action="/action_page.php">
+      <form>
       
         <div class="row">
           <div class="col-50">
@@ -71,19 +73,12 @@
           <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
         </label>
         <input type="submit" value="Continue to checkout" class="btn">
+        <input type="button" value="Go back" class="btn" style="background-color: red" onclick="window.location.assign('home-page.html')" >
       </form>
     </div>
   </div>
   <div class="col-25">
-    <div class="container">
-      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
-      <p><a href="#">Product 1</a> <span class="price">15 €</span></p>
-      <p><a href="#">Product 2</a> <span class="price">5 €</span></p>
-      <p><a href="#">Product 3</a> <span class="price">8 €</span></p>
-      <p><a href="#">Product 4</a> <span class="price">2 €</span></p>
-      <hr>
-      <p>Total <span class="price" style="color:black"><b>30 €</b></span></p>
-
+    <div class="container" id="products">
     </div>
   </div>
 </div>

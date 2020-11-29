@@ -20,29 +20,21 @@ button:hover {
   opacity: 0.8;
 }
 
-#customers, #prueba {
+#customers {
   margin: 0 auto;
   border-collapse: collapse;
   margin-top: 3em;
   margin-bottom: 1em;
   width: 80%;
   text-align: center;
+  overflow: auto;
 }
 
-#prueba {
-  margin-left: 8em auto;
-}
-
-#prueba td, #prueba th{
-  border: black solid 1px;
-
-}
-
-#customers tr:nth-child(even), #prueba tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
 
 #customers tr:hover {background-color: #ddd;}
 
-#customers th, #prueba th {
+#customers th {
   text-align: center;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -54,24 +46,25 @@ button:hover {
   width: 10em;
 }
 
-#prueba img {
-  width: 100%;
-}
 
 @media (max-width: 30em) {
-  #customers{ 
+  #customers button{
     display: none;
   }
-  #prueba{
-    display: block;
+  #customers img{
+    width: 100%;
+    min-width: 80px;
   }
 }
 
 @media (min-width: 30.01em){
-  #customers{ 
-    display:;
+  #customers button{
+    display:revert;
   }
-  #prueba{
-    display: none;    
+}
+
+@media (max-width: 20em){
+  #customers img{
+    min-width: 50px;
   }
 }

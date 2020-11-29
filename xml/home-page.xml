@@ -1,23 +1,71 @@
 <?xml version="1.0" ?>
-<home>
-    <slider>
+<sliders>
+    <slider-home>
         <id>0</id>
         <img>img/banner-mascotas.jpg</img>
-        <animal>dog</animal>
-    </slider>
-    <slider>
+        <animal>Canine</animal>
+        <link>categories.html</link>
+    </slider-home>
+    <slider-home>
         <id>1</id>
         <img>img/banner-gatos.png</img>
-        <animal>gatos</animal>
-    </slider>
-    <slider>
+        <animal>Feline</animal>
+        <link>categories.html</link>
+    </slider-home>
+    <slider-home>
         <id>2</id>
         <img>img/banner-pajaros.png</img>
-        <animal>pajaros</animal>
-    </slider>
-    <slider>
+        <animal>Bird</animal>
+        <link>categories.html</link>
+    </slider-home>
+    <slider-home>
         <id>3</id>
         <img>img/banner-reptiles.jpg</img>
-        <animal>reptiles</animal>
-    </slider>
-</home>
+        <animal>Reptile</animal>
+        <link>categories.html</link>
+    </slider-home>
+
+    <slider-category>
+        <id>0</id>
+        <img>img/comidaBanner.jpeg</img>
+        <animal>Canine</animal>
+        <link>shop.html</link>
+        <category>Food</category>
+    </slider-category>
+    <slider-category>
+        <id>1</id>
+        <img>img/higieneBanner.jpeg</img>
+        <animal>Canine</animal>
+        <link>shop.html</link>
+        <category>Hygiene</category>
+    </slider-category>
+    <slider-category>
+        <id>2</id>
+        <img>img/juguetesBanner.jpeg</img>
+        <animal>Canine</animal>
+        <link>shop.html</link>
+        <category>Toys-Home</category>
+    </slider-category>
+
+    <slider-category>
+        <id>3</id>
+        <img>img/comidaBanner.jpeg</img>
+        <animal>Feline</animal>
+        <link>shop.html</link>
+        <category>Food</category>
+    </slider-category>
+    <slider-category>
+        <id>4</id>
+        <img>img/higieneBanner.jpeg</img>
+        <animal>Feline</animal>
+        <link>shop.html</link>
+        <category>Hygiene</category>
+    </slider-category>
+    <slider-category>
+        <id>5</id>
+        <img>img/juguetesBanner.jpeg</img>
+        <animal>Feline</animal>
+        <link>shop.html</link>
+        <category>Toys-Home</category>
+    </slider-category>
+</sliders>
