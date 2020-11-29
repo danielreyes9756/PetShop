@@ -4,25 +4,25 @@
         <id>0</id>
         <img>img/banner-mascotas.jpg</img>
         <animal>Canine</animal>
-        <link>categories.html</link>
+        <link>home-page.html</link>
     </slider-home>
     <slider-home>
         <id>1</id>
         <img>img/banner-gatos.png</img>
         <animal>Feline</animal>
-        <link>categories.html</link>
+        <link>home-page.html</link>
     </slider-home>
     <slider-home>
         <id>2</id>
         <img>img/banner-pajaros.png</img>
         <animal>Bird</animal>
-        <link>categories.html</link>
+        <link>home-page.html</link>
     </slider-home>
     <slider-home>
         <id>3</id>
         <img>img/banner-reptiles.jpg</img>
         <animal>Reptile</animal>
-        <link>categories.html</link>
+        <link>home-page.html</link>
     </slider-home>
 
     <slider-category>

@@ -327,7 +327,7 @@
     </product>
     <!-- AÑADIDO para el SLIDER -->
     <product>
-        <id>6</id>
+        <id>36</id>
         <name>Pienso Ownat</name>
         <description>Pienso Ownat 100% natural sabor a pollo de corral para los más grandes de la casa.</description>
         <price>20</price>
@@ -336,7 +336,7 @@
         <category>Food</category>
     </product>
     <product>
-        <id>7</id>
+        <id>37</id>
         <name>Pienso Ownat Ligth</name>
         <description>Pienso Ownat 100% natural ahora Light, con los mismos valores nutricionales para los más grandes de la casa.</description>
         <price>25</price>
@@ -345,7 +345,7 @@
         <category>Food</category>
     </product>
     <product>
-        <id>8</id>
+        <id>38</id>
         <name>Pienso Ownat (Debo ser = 0)</name>
         <description>Pienso Ownat 100% natural sabor a pollo de corral para los más grandes de la casa.</description>
         <price>20</price>
@@ -354,7 +354,7 @@
         <category>Food</category>
     </product>
     <product>
-        <id>9</id>
+        <id>39</id>
         <name>Pienso Ownat Light (Debo ser = 1)</name>
         <description>Pienso Ownat 100% natural ahora Light, con los mismos valores nutricionales para los más grandes de la casa.</description>
         <price>25</price>
@@ -363,7 +363,7 @@
         <category>Food</category>
     </product>
     <product>
-        <id>10</id>
+        <id>40</id>
         <name>Pienso Ownat (Debo ser = 0 y 3)</name>
         <description>Pienso Ownat 100% natural sabor a pollo de corral para los más grandes de la casa.</description>
         <price>20</price>
@@ -372,7 +372,7 @@
         <category>Food</category>
     </product>
     <product>
-        <id>11</id>
+        <id>41</id>
         <name>Pienso Ownat Light (Debo ser = 1 y 4)</name>
         <description>Pienso Ownat 100% natural ahora Light, con los mismos valores nutricionales para los más grandes de la casa.</description>
         <price>25</price>
