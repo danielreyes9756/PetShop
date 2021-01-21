@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     let id = url.substring(url.lastIndexOf('=') + 1);
 
-    let freq = 1000000;
+    let freq = 100000;
     function startAJAX(){
         setTimeout( function (){
                 getJSONProfessionals();
@@ -17,14 +17,17 @@ $(document).ready(function() {
     function getJSONProfessionals() {
 
         $.ajax({
-            url: "http://127.0.0.1:3000/get_professionals",
+            url: "https://doubledpetshop.herokuapp.com/get_professionals",
             success: function (professionals) {
 
                 $('#marketing').empty()
                 let htmlRep = '<div class="row">'
                 let count = 0;
                 professionals.forEach( function (professional){
-                    count++;
+
+                    if(!url.includes("professionals.html")) {
+                        count++;
+                    }
                     if(count<4){
                         htmlRep += '<div class="col-lg-4">'+
                         '<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="' + professional.image + '" preserveAspectRatio="xMidYMid slice" focusable="false">'+
@@ -33,8 +36,13 @@ $(document).ready(function() {
                             '</div>'
                     }
                 });
-                htmlRep += '</div>' +
-                    '<hr class="featurette-divider">'
+                htmlRep += '</div>'
+                if(!url.includes("professionals.html")) {
+                    htmlRep += '<a href="professionals.html">Ver más</a>'
+                } else {
+                    htmlRep += '<a href="index.html">Back</a>'
+                }
+                htmlRep +=  '<hr class="featurette-divider">'
 
                 $('#marketing').append(htmlRep);
             }

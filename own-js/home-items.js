@@ -17,7 +17,7 @@ $(document).ready(function() {
     function getJSONProfessionals() {
 
         $.ajax({
-            url: "http://127.0.0.1:3000/get_items",
+            url: "https://doubledpetshop.herokuapp.com/get_items",
             success: function (items) {
                 $('#items').empty()
                 let htmlRep='';

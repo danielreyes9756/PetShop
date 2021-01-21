@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     let id = url.substring(url.lastIndexOf('=') + 1);
 
-    let freq = 1000000;
+    let freq = 100000;
     function startAJAX(){
         setTimeout( function (){
                 getJSONBanners();
@@ -17,7 +17,7 @@ $(document).ready(function() {
     function getJSONBanners() {
 
         $.ajax({
-            url: "http://127.0.0.1:3000/get_animals",
+            url: "https://doubledpetshop.herokuapp.com/get_animals",
             success: function (animals) {
                 $('#myCarousel').empty()
                 let htmlRep = '<ol class="carousel-indicators">'

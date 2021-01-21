@@ -9,13 +9,12 @@ $(document).ready(function() {
 
         filterBy = url.substring(url.lastIndexOf('#') + 1);
         let array = filterBy.split("?")
-        console.log(array)
+
         filterBy = array[0]
         idFilter = array[1]
 
     }
-    console.log(filterBy)
-    console.log(idFilter)
+
     let freq = 100000;
     function startAJAX(){
         setTimeout( function (){
@@ -30,7 +29,7 @@ $(document).ready(function() {
     function getJSONBanners() {
 
         $.ajax({
-            url: "http://127.0.0.1:3000/get_items",
+            url: "https://doubledpetshop.herokuapp.com/get_items",
             success: function (items) {
                 $('#album').empty()
                 let htmlRep=''

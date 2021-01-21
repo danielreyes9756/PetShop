@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 
         $.ajax({
-            url: "http://127.0.0.1:3000/get_users",
+            url: "https://doubledpetshop.herokuapp.com/get_users",
              success: function(users) {
                  usuarios = users
             }
